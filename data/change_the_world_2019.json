@@ -1,0 +1,1197 @@
+[
+  {
+    "fields": [
+      { "key": "rank", "value": "48" },
+      { "key": "revenues", "value": "" },
+      { "key": "industry", "value": "Apparel" },
+      { "key": "name", "value": "Patagonia" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Patagonia"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/patagonia/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "49" },
+      { "key": "revenues", "value": "13282" },
+      { "key": "industry", "value": "Computer Software" },
+      { "key": "name", "value": "Salesforce" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Education/Discovery" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Salesforce"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/salesforce/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "50" },
+      { "key": "revenues", "value": "10746" },
+      { "key": "industry", "value": "Internet Services and Retailing" },
+      { "key": "name", "value": "eBay" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "eBay"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/ebay/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "51" },
+      { "key": "revenues", "value": "" },
+      { "key": "industry", "value": "Food Production" },
+      { "key": "name", "value": "Impossible Foods" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Impossible Foods"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/impossible-foods/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "52" },
+      { "key": "revenues", "value": "88" },
+      { "key": "industry", "value": "Food Production" },
+      { "key": "name", "value": "Beyond Meat" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Beyond Meat"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/beyond-meat/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "44" },
+      { "key": "revenues", "value": "177" },
+      { "key": "industry", "value": "Real Estate" },
+      { "key": "name", "value": "Vinte Viviendas Integrales" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Human Rights/Social Justice" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Vinte Viviendas Integrales"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/vinte-viviendas-integrales/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "45" },
+      { "key": "revenues", "value": "14936" },
+      { "key": "industry", "value": "Food Consumer Products" },
+      { "key": "name", "value": "Land O&#8217;Lakes" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Land O'Lakes"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/land-o-lakes/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "46" },
+      { "key": "revenues", "value": "" },
+      { "key": "industry", "value": "IT Services" },
+      { "key": "name", "value": "NTT" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "NTT"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/ntt/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "47" },
+      { "key": "revenues", "value": "" },
+      {
+        "key": "industry",
+        "value": "Health Care: Pharmacy and Other Services"
+      },
+      { "key": "name", "value": "Icon Group" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Icon Group"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/icon-group/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "34" },
+      { "key": "revenues", "value": "" },
+      { "key": "industry", "value": "Chemicals" },
+      { "key": "name", "value": "Poet" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Poet"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/poet/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "35" },
+      { "key": "revenues", "value": "3333" },
+      {
+        "key": "industry",
+        "value": "Scientific, Photographic and Control Equipment"
+      },
+      { "key": "name", "value": "Illumina" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Illumina"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/illumina/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "36" },
+      { "key": "revenues", "value": "" },
+      { "key": "industry", "value": "Computer Software" },
+      { "key": "name", "value": "Duolingo" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Education/Discovery" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Duolingo"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/duolingo/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "37" },
+      { "key": "revenues", "value": "56147" },
+      { "key": "industry", "value": "Internet Services and Retailing" },
+      { "key": "name", "value": "Alibaba" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Alibaba"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/alibaba-group/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "38" },
+      { "key": "revenues", "value": "131412" },
+      { "key": "industry", "value": "Commercial Banks" },
+      { "key": "name", "value": "JPMorgan Chase" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "JPMorgan Chase"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/jpmorgan-chase/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "39" },
+      { "key": "revenues", "value": "15474" },
+      { "key": "industry", "value": "Internet Services and Retailing" },
+      { "key": "name", "value": "Baidu" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Baidu"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/baidu/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "40" },
+      { "key": "revenues", "value": "" },
+      { "key": "industry", "value": "Electronics, Electrical Equipment" },
+      { "key": "name", "value": "Corvus Energy" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Corvus Energy"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/corvus-energy/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "41" },
+      { "key": "revenues", "value": "8906" },
+      { "key": "industry", "value": "Hotels, Casinos, Resorts" },
+      { "key": "name", "value": "Hilton" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Hilton"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/hilton-worldwide-holdings/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "42" },
+      { "key": "revenues", "value": "604" },
+      { "key": "industry", "value": "Internet Services and Retailing" },
+      { "key": "name", "value": "Etsy" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Etsy"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/etsy/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "43" },
+      { "key": "revenues", "value": "21386" },
+      { "key": "industry", "value": "Medical Products and Equipment" },
+      { "key": "name", "value": "Philips" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Philips"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/philips/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "23" },
+      { "key": "revenues", "value": "5207" },
+      { "key": "industry", "value": "Industrial Machinery" },
+      { "key": "name", "value": "Xylem" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Xylem"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/xylem/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "24" },
+      { "key": "revenues", "value": "70848" },
+      {
+        "key": "industry",
+        "value": "Semiconductors and Other Electronic Components"
+      },
+      { "key": "name", "value": "Intel" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Human Rights/Social Justice" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Intel"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/intel/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "25" },
+      { "key": "revenues", "value": "6320" },
+      { "key": "industry", "value": "Telecommunications" },
+      { "key": "name", "value": "Vodacom" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Vodacom"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/vodacom/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "26" },
+      { "key": "revenues", "value": "49852" },
+      { "key": "industry", "value": "Chemicals" },
+      { "key": "name", "value": "Dow, Inc." },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Dow, Inc."
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/dow-chemical/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "27" },
+      { "key": "revenues", "value": "" },
+      {
+        "key": "industry",
+        "value": "Health Care: Pharmacy and Other Services"
+      },
+      { "key": "name", "value": "GoodRx" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "GoodRx"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/goodrx/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "28" },
+      { "key": "revenues", "value": "398" },
+      { "key": "industry", "value": "Food Services" },
+      { "key": "name", "value": "MOD Pizza" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Human Rights/Social Justice" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "MOD Pizza"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/mod-pizza/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "29" },
+      { "key": "revenues", "value": "31791" },
+      { "key": "industry", "value": "Household and Personal Products" },
+      { "key": "name", "value": "L\u2019Or\u00e9al" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "L\u2019Or\u00e9al"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/loreal/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "30" },
+      { "key": "revenues", "value": "62992" },
+      { "key": "industry", "value": "Insurance: Life, Health" },
+      { "key": "name", "value": "Prudential Financial" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Human Rights/Social Justice" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Prudential Financial"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/prudential-financial/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "31" },
+      { "key": "revenues", "value": "35252" },
+      { "key": "industry", "value": "Commercial Banks" },
+      { "key": "name", "value": "Lloyds Banking Group" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Lloyds Banking Group"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/lloyds-banking-group/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "32" },
+      { "key": "revenues", "value": "42879" },
+      { "key": "industry", "value": "Specialty Retailers: Other" },
+      { "key": "name", "value": "Best Buy" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Best Buy"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/best-buy/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "33" },
+      { "key": "revenues", "value": "409" },
+      {
+        "key": "industry",
+        "value": "Health Care: Pharmacy and Other Services"
+      },
+      { "key": "name", "value": "Narayana Health" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Narayana Health"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/narayana-health/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "12" },
+      { "key": "revenues", "value": "2068" },
+      {
+        "key": "industry",
+        "value": "Network and Other Communications Equipment"
+      },
+      { "key": "name", "value": "Viasat" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Viasat"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/viasat/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "13" },
+      { "key": "revenues", "value": "131537" },
+      { "key": "industry", "value": "Food and Drug Stores" },
+      { "key": "name", "value": "Walgreens" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Walgreens"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/walgreens/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "14" },
+      { "key": "revenues", "value": "34800" },
+      { "key": "industry", "value": "Diversified Outsourcing Services" },
+      { "key": "name", "value": "EY" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Human Rights/Social Justice" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "EY"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/ey/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "15" },
+      { "key": "revenues", "value": "15983" },
+      { "key": "industry", "value": "Medical Products and Equipment" },
+      { "key": "name", "value": "BD" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "BD"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/bd/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "16" },
+      { "key": "revenues", "value": "265595" },
+      { "key": "industry", "value": "Computers, Office Equipment" },
+      { "key": "name", "value": "Apple" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Apple"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/apple/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "17" },
+      { "key": "revenues", "value": "17970" },
+      { "key": "industry", "value": "Medical Products and Equipment" },
+      { "key": "name", "value": "EssilorLuxottica" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "EssilorLuxottica"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/essilorluxottica/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "18" },
+      { "key": "revenues", "value": "1308" },
+      { "key": "industry", "value": "Chemicals" },
+      { "key": "name", "value": "Chr. Hansen" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Chr. Hansen"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/chr-hansen/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "19" },
+      { "key": "revenues", "value": "54619" },
+      { "key": "industry", "value": "Beverages" },
+      { "key": "name", "value": "Anheuser Busch InBev" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Anheuser Busch InBev"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/anheuser-busch/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "20" },
+      { "key": "revenues", "value": "19754" },
+      { "key": "industry", "value": "Engineering, Construction" },
+      { "key": "name", "value": "Skanska" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Skanska"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/skanska/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "21" },
+      { "key": "revenues", "value": "40993" },
+      { "key": "industry", "value": "Information Technology Services" },
+      { "key": "name", "value": "Accenture" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Accenture"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/accenture/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "22" },
+      { "key": "revenues", "value": "79591" },
+      { "key": "industry", "value": "Information Technology Services" },
+      { "key": "name", "value": "IBM" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "IBM"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/ibm/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "1" },
+      { "key": "revenues", "value": "22732" },
+      {
+        "key": "industry",
+        "value": "Semiconductors and Other Electronic Components"
+      },
+      { "key": "name", "value": "Qualcomm" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Qualcomm"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/qualcomm/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "2" },
+      { "key": "revenues", "value": "14950" },
+      { "key": "industry", "value": "Financial Data Services" },
+      { "key": "name", "value": "Mastercard" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Mastercard"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/mastercard/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "3" },
+      { "key": "revenues", "value": "18426" },
+      { "key": "industry", "value": "Motor Vehicles and Parts" },
+      { "key": "name", "value": "BYD" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "BYD"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/byd/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "4" },
+      { "key": "revenues", "value": "13988" },
+      { "key": "industry", "value": "Electronics, Electrical Equipment" },
+      { "key": "name", "value": "TE Connectivity" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "TE Connectivity"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/te-connectivity/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "5" },
+      { "key": "revenues", "value": "514405" },
+      { "key": "industry", "value": "General Merchandisers" },
+      { "key": "name", "value": "Walmart" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Education/Discovery" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Walmart"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/walmart/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "6" },
+      { "key": "revenues", "value": "23400" },
+      { "key": "industry", "value": "Commercial Banks" },
+      { "key": "name", "value": "Santander Brasil" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Santander Brasil"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/santander-brasil/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "7" },
+      { "key": "revenues", "value": "60116" },
+      {
+        "key": "industry",
+        "value": "Health Care: Insurance and Managed Care"
+      },
+      { "key": "name", "value": "Centene" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Public Health/Nutrition" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Centene"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/centene/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "8" },
+      { "key": "revenues", "value": "110584" },
+      { "key": "industry", "value": "Commercial Banks" },
+      { "key": "name", "value": "Bank of America" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Human Rights/Social Justice" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Bank of America"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/bank-of-america/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "9" },
+      { "key": "revenues", "value": "30354" },
+      { "key": "industry", "value": "Electronics, Electrical Equipment" },
+      { "key": "name", "value": "Schneider Electric" },
+      { "key": "global500-y-n", "value": "yes" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "yes" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Schneider Electric"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/schneider-electric/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "10" },
+      { "key": "revenues", "value": "" },
+      { "key": "industry", "value": "Waste Management" },
+      { "key": "name", "value": "TerraCycle" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      { "key": "impact-segment", "value": "Environmental Impact" },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "TerraCycle"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/terracycle/"
+  },
+  {
+    "fields": [
+      { "key": "rank", "value": "11" },
+      { "key": "revenues", "value": "" },
+      { "key": "industry", "value": "Internet Services and Retailing" },
+      { "key": "name", "value": "Go-Jek" },
+      { "key": "global500-y-n", "value": "no" },
+      { "key": "worlds-most-admired-companies-y-n", "value": "no" },
+      {
+        "key": "impact-segment",
+        "value": "Economic Opportunity/Financial Inclusion"
+      },
+      {
+        "fieldMeta": {
+          "title": "Company",
+          "type": "Text",
+          "importField": "title",
+          "order": "desc"
+        },
+        "key": "title",
+        "value": "Go-Jek"
+      }
+    ],
+    "permalink": "https://fortune.com/change-the-world/2019/go-jek/"
+  }
+]
