@@ -4,6 +4,6 @@ uvicorn[standard]
 alpaca-trade-api
 numpy
 pandas
-dotenv
+python-dotenv
 pmdarima
 statsmodels
