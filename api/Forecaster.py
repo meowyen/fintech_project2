@@ -1,20 +1,10 @@
-import requests
-import math
-from sklearn.metrics import mean_squared_error, mean_absolute_error
-import alpaca_trade_api as tradeapi
-from statsmodels.tsa.arima_model import ARIMA
-from statsmodels.tsa.seasonal import seasonal_decompose
-from statsmodels.tsa.stattools import adfuller
-import matplotlib.pyplot as plt
-import glob
-from pylab import rcParams
-import pandas as pd
-import numpy as np
-import warnings
 import os
-from pmdarima.arima import auto_arima
+import alpaca_trade_api as tradeapi
+import numpy as np
+import pandas as pd
 from dotenv import load_dotenv
-warnings.filterwarnings('ignore')
+from pmdarima.arima import auto_arima
+from statsmodels.tsa.arima_model import ARIMA
 
 
 class DataModel:

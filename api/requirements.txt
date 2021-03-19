@@ -1,3 +1,9 @@
 fastapi
 gunicorn
 uvicorn[standard]
+alpaca-trade-api
+numpy
+pandas
+dotenv
+pmdarima
+statsmodels
