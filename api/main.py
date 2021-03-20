@@ -10,5 +10,5 @@ async def root():
 
 @app.get("/forecasts/{ticker_id}")
 async def read_forecast(ticker_id):
-    result = dm.get_forecast(ticker_id)
-    return {"ticker_id": ticker_id, "forecast": result}
+    result, mape = dm.get_forecast(ticker_id)
+    return {"ticker_id": ticker_id, "forecast": result, "mape": mape}

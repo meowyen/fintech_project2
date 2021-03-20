@@ -79,4 +79,4 @@ class DataModel:
         mape, fc_series = self.p_value_test(data_df, p_value)
         result = self.up_or_down(fc_series)
 
-        return result
+        return result, mape
