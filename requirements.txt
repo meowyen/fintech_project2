@@ -1,0 +1,9 @@
+fastapi
+gunicorn
+uvicorn[standard]
+alpaca-trade-api
+numpy
+pandas
+python-dotenv
+pmdarima
+statsmodels
