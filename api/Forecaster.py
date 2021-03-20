@@ -4,7 +4,11 @@ import numpy as np
 import pandas as pd
 from dotenv import load_dotenv
 from pmdarima.arima import auto_arima
+from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.arima_model import ARIMA
+import warnings
+
+warnings.filterwarnings("ignore")
 
 
 class DataModel:
@@ -18,7 +22,7 @@ class DataModel:
             secret_key,
             api_version="v2"
         )
-    
+
     def get_ticker_data(self, ticker):
         timeframe = "1D"
         max_iter = 1000
@@ -30,11 +34,23 @@ class DataModel:
 
         return barset[ticker]["close"]
 
-    def p_value_test(self, dataset):
-        df_log = np.log(dataset)
+    def test_stationarity(self, data):
+        """
+        Test for stationary data and return p-value.
+        """
+        adft = adfuller(data, autolag="AIC")
+        p_value = adft[1]
 
-        train_data, test_data = df_log[3:int(
-            len(df_log)*0.9)], df_log[int(len(df_log)*0.9):]
+        return p_value
+
+    def p_value_test(self, data, p_value):
+        data_df = data
+
+        if p_value >= 0.05:
+            data_df = np.log(data)
+
+        train_data, test_data = data_df[3:int(
+            len(data_df)*0.9)], data_df[int(len(data_df)*0.9):]
 
         model_autoARIMA = auto_arima(train_data, start_p=0, start_q=0, test='adf', max_p=3, max_q=3, m=1, d=None,
                                      seasonal=False, start_P=0, D=0, trace=True, error_action='ignore', suppress_warnings=True, stepwise=True)
@@ -53,15 +69,14 @@ class DataModel:
 
     def up_or_down(self, fc_series):
         if fc_series[-1] > fc_series[0]:
-            up = 'This stock is forecasted going up based on the last 1000 trading days'
             return "UP"
         else:
-            down = 'This stock is forecasted going down based on the last 1000 trading days'
             return "DOWN"
 
     def get_forecast(self, ticker):
         data_df = self.get_ticker_data(ticker)
-        mape, fc_series = self.p_value_test(data_df)
+        p_value = self.test_stationarity(data_df)
+        mape, fc_series = self.p_value_test(data_df, p_value)
         result = self.up_or_down(fc_series)
 
         return result
