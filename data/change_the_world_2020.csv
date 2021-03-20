@@ -1,54 +1,54 @@
-ctw_industry,ctw_revenues,global500-y-n,impact-segment,name,rank,title,worlds-most-admired-companies-y-n,Ticker
-Commercial Banks,50863.0,yes,Economic Opportunity/Financial Inclusion,Royal Bank of Canada,37,Royal Bank of Canada,yes,RY
-Semiconductors and Other Electronics,24273.0,no,Environmental Impact,Qualcomm,26,Qualcomm,yes,QCOM
-Medical Products and Equipment,28913.0,yes,Public Health/Nutrition,Medtronic,13,Medtronic,yes,MDT
-Wholesalers: Health Care,10305.0,no,Public Health/Nutrition,Henry Schein,19,Henry Schein,yes,HSIC
-Household and Personal Products,15693.0,no,Environmental Impact,Colgate-Palmolive,27,Colgate-Palmolive,yes,CL
-Health Care: Insurance and Managed Care,74639.0,yes,Public Health/Nutrition,Centene,50,Centene,yes,CNC
-Beverages,52329.0,yes,Economic Opportunity/Financial Inclusion,Anheuser-Busch InBev,22,Anheuser-Busch InBev,yes,BUD
-Internet Services and Retailing,73166.0,yes,Public Health/Nutrition,Alibaba Group Holding,2,Alibaba Group Holding,no,BABA
-Semiconductors and Other Electronics,6731.0,no,Environmental Impact,Advanced Micro Devices (AMD),33,Advanced Micro Devices (AMD),yes,AMD
-Financial Data Services,17772.0,no,Economic Opportunity/Financial Inclusion,PayPal Holdings,3,PayPal Holdings,yes,PYPL
-Commercial Banks,113589.0,yes,Human Rights/Social Justice,Bank of America,15,Bank of America,yes,BAC
-Medical Products and Equipment,31904.0,yes,Public Health/Nutrition,Abbott Laboratories,24,Abbott Laboratories,yes,ABT
-Financial Data Services,16883.0,no,Economic Opportunity/Financial Inclusion,Mastercard,14,Mastercard,yes,MA
-Computer Software,11171.0,no,Economic Opportunity/Financial Inclusion,Adobe,41,Adobe,yes,ADBE
-Semiconductors and Other Electronics,10918.0,no,Public Health/Nutrition,Nvidia,4,Nvidia,yes,NVDA
-Pharmaceuticals,46840.0,yes,Public Health/Nutrition,Merck,53,Merck,yes,MRK
-"Mail, Package, and Freight Delivery",74094.0,yes,Public Health/Nutrition,UPS,49,UPS,yes,UPST
-Securities,14539.0,no,Environmental Impact,BlackRock,5,BlackRock,yes,ICSH
-Computer Software,17098.0,no,Economic Opportunity/Financial Inclusion,Salesforce,44,Salesforce,yes,CRM
-General Merchandise,523964.0,yes,Public Health/Nutrition,Walmart,9,Walmart,yes,WMT
-Internet Services and Retailing,161857.0,yes,Public Health/Nutrition,Alphabet,23,Alphabet,yes,GOOGL
-Computer Software,143015.0,yes,Economic Opportunity/Financial Inclusion,Microsoft,16,Microsoft,yes,MSFT
-Pharmaceuticals,7863.0,no,Public Health/Nutrition,Regeneron Pharmaceuticals,8,Regeneron Pharmaceuticals,no,REGN
-Pharmaceuticals,,,Public Health/Nutrition,The Vaccine Makers,1,The Vaccine Makers,no,KHC
-Computer Software,623.0,no,Education/Discovery,Zoom,6,Zoom,no,ZM
-Telecommunications,2567.0,no,Public Health/Nutrition,Safaricom,7,Safaricom,no,
-Pharmaceuticals,749.0,no,Public Health/Nutrition,Serum Institute of India,10,Serum Institute of India,no,
-Conglomerate,13699.0,no,Economic Opportunity/Financial Inclusion,Mondragon,11,Mondragon,no,
-Utilities,1461.0,no,Human Rights/Social Justice,Grupo Energía Bogotá,12,Grupo Energía Bogotá,no,SUPV
-Engineering & Construction,18282.0,no,Economic Opportunity/Financial Inclusion,Skanska,17,Skanska,no,SKBSY
-Commercial Banks,,no,Human Rights/Social Justice,Minority-Owned Banks,18,Minority-Owned Banks,no,
-Telecommunications,9000.0,no,Economic Opportunity/Financial Inclusion,Jio Platforms,21,Jio Platforms,no,
-Food Production,,no,Public Health/Nutrition,East-West Seed,28,East-West Seed,no,
-"Publishing, Printing",4940.0,no,Economic Opportunity/Financial Exclusion,Pearson,29,Pearson,no,PSO
-Engineering & Construction,,no,Economic Opportunity/Financial Inclusion,Zutari,30,Zutari,no,
-Transportation and Logistics,,no,Environmental Impact,Lineage Logistics,31,Lineage Logistics,no,LCTX
-Food & Drug Stores,,no,Environmental Impact,Green Monday Group,32,Green Monday Group,no,GTEC
-Education,,no,Economic Opportunity/Financial Inclusion,Udemy,34,Udemy,no,
-Internet Services and Retailing,,no,Economic Opportunity/Financial Inclusion,Grab,35,Grab,no,
-"Packaging, Containers",,no,Environmental Impact,Footprint,38,Footprint,no,
-Building Materials,13130.0,no,Public Health/Nutrition,Cemex,39,Cemex,no,CX
-"Electronics, Electrical Equipment",1463.0,no,Public Health/Nutrition,Ushio,40,Ushio,no,UHOIF
-Utilities,10939.0,no,Environmental Impact,Ørsted,42,Ørsted,no,
-Household and Personal Products,3668.0,no,Human Rights/Social Justice,Natura,45,Natura,no,NTCO
-Commercial Banks,547.0,no,Economic Opportunity/Financial Inclusion,African Bank,46,African Bank,no,AGAC/U
-Motor Vehicles and Parts,1391.0,no,Environmental Impact,Nio,47,Nio,no,NIO
-Commercial Banks,167.0,no,Human Rights/Social Justice,Jordan Ahli Bank,48,Jordan Ahli Bank,no,
-Health Care: Medical Facilities,,no,Public Health/Nutrition,ChenMed,51,ChenMed,no,
-Metals,8092.0,no,Environmental Impact,SSAB,52,SSAB,no,SSAAY
-Food Production,13846.0,no,Public Health/Nutrition,Corteva,43,Corteva,no,CTVA
-Medical Products and Equipment,17290.0,no,Public Health/Nutrition,BD,36,BD,no,BDOUF
-Specialty Retailers: Other,5898.0,no,Economic Opportunity/Financial Exclusion,Williams-Sonoma,25,Williams-Sonoma,no,WSM
-Insurance: Life. Health,184280.0,yes,Public Health/Nutrition,Ping An Insurance,20,Ping An Insurance,no,PANHF
+rank,ctw_revenues,ctw_industry,name,global500-y-n,worlds-most-admired-companies-y-n,impact-segment,title
+37,50863,Commercial Banks,Royal Bank of Canada,yes,yes,Economic Opportunity/Financial Inclusion,Royal Bank of Canada
+26,24273,Semiconductors and Other Electronics,Qualcomm,no,yes,Environmental Impact,Qualcomm
+13,28913,Medical Products and Equipment,Medtronic,yes,yes,Public Health/Nutrition,Medtronic
+19,10305,Wholesalers: Health Care,Henry Schein,no,yes,Public Health/Nutrition,Henry Schein
+27,15693,Household and Personal Products,Colgate-Palmolive,no,yes,Environmental Impact,Colgate-Palmolive
+50,74639,Health Care: Insurance and Managed Care,Centene,yes,yes,Public Health/Nutrition,Centene
+22,52329,Beverages,Anheuser-Busch InBev,yes,yes,Economic Opportunity/Financial Inclusion,Anheuser-Busch InBev
+2,73166,Internet Services and Retailing,Alibaba Group Holding,yes,no,Public Health/Nutrition,Alibaba Group Holding
+33,6731,Semiconductors and Other Electronics,Advanced Micro Devices (AMD),no,yes,Environmental Impact,Advanced Micro Devices (AMD)
+3,17772,Financial Data Services,PayPal Holdings,no,yes,Economic Opportunity/Financial Inclusion,PayPal Holdings
+15,113589,Commercial Banks,Bank of America,yes,yes,Human Rights/Social Justice,Bank of America
+24,31904,Medical Products and Equipment,Abbott Laboratories,yes,yes,Public Health/Nutrition,Abbott Laboratories
+14,16883,Financial Data Services,Mastercard,no,yes,Economic Opportunity/Financial Inclusion,Mastercard
+41,11171,Computer Software,Adobe,no,yes,Economic Opportunity/Financial Inclusion,Adobe
+4,10918,Semiconductors and Other Electronics,Nvidia,no,yes,Public Health/Nutrition,Nvidia
+53,46840,Pharmaceuticals,Merck,yes,yes,Public Health/Nutrition,Merck
+49,74094,"Mail, Package, and Freight Delivery",UPS,yes,yes,Public Health/Nutrition,UPS
+5,14539,Securities,BlackRock,no,yes,Environmental Impact,BlackRock
+44,17098,Computer Software,Salesforce,no,yes,Economic Opportunity/Financial Inclusion,Salesforce
+9,523964,General Merchandise,Walmart,yes,yes,Public Health/Nutrition,Walmart
+23,161857,Internet Services and Retailing,Alphabet,yes,yes,Public Health/Nutrition,Alphabet
+16,143015,Computer Software,Microsoft,yes,yes,Economic Opportunity/Financial Inclusion,Microsoft
+8,7863,Pharmaceuticals,Regeneron Pharmaceuticals,no,no,Public Health/Nutrition,Regeneron Pharmaceuticals
+1,,Pharmaceuticals,The Vaccine Makers,,no,Public Health/Nutrition,The Vaccine Makers
+6,623,Computer Software,Zoom,no,no,Education/Discovery,Zoom
+7,2567,Telecommunications,Safaricom,no,no,Public Health/Nutrition,Safaricom
+10,749,Pharmaceuticals,Serum Institute of India,no,no,Public Health/Nutrition,Serum Institute of India
+11,13699,Conglomerate,Mondragon,no,no,Economic Opportunity/Financial Inclusion,Mondragon
+12,1461,Utilities,Grupo Energía Bogotá,no,no,Human Rights/Social Justice,Grupo Energía Bogotá
+17,18282,Engineering & Construction,Skanska,no,no,Economic Opportunity/Financial Inclusion,Skanska
+18,,Commercial Banks,Minority-Owned Banks,no,no,Human Rights/Social Justice,Minority-Owned Banks
+21,9000,Telecommunications,Jio Platforms,no,no,Economic Opportunity/Financial Inclusion,Jio Platforms
+28,,Food Production,East-West Seed,no,no,Public Health/Nutrition,East-West Seed
+29,4940,"Publishing, Printing",Pearson,no,no,Economic Opportunity/Financial Exclusion,Pearson
+30,,Engineering & Construction,Zutari,no,no,Economic Opportunity/Financial Inclusion,Zutari
+31,,Transportation and Logistics,Lineage Logistics,no,no,Environmental Impact,Lineage Logistics
+32,,Food & Drug Stores,Green Monday Group,no,no,Environmental Impact,Green Monday Group
+34,,Education,Udemy,no,no,Economic Opportunity/Financial Inclusion,Udemy
+35,,Internet Services and Retailing,Grab,no,no,Economic Opportunity/Financial Inclusion,Grab
+38,,"Packaging, Containers",Footprint,no,no,Environmental Impact,Footprint
+39,13130,Building Materials,Cemex,no,no,Public Health/Nutrition,Cemex
+40,1463,"Electronics, Electrical Equipment",Ushio,no,no,Public Health/Nutrition,Ushio
+42,10939,Utilities,Ørsted,no,no,Environmental Impact,Ørsted
+45,3668,Household and Personal Products,Natura,no,no,Human Rights/Social Justice,Natura
+46,547,Commercial Banks,African Bank,no,no,Economic Opportunity/Financial Inclusion,African Bank
+47,1391,Motor Vehicles and Parts,Nio,no,no,Environmental Impact,Nio
+48,167,Commercial Banks,Jordan Ahli Bank,no,no,Human Rights/Social Justice,Jordan Ahli Bank
+51,,Health Care: Medical Facilities,ChenMed,no,no,Public Health/Nutrition,ChenMed
+52,8092,Metals,SSAB,no,no,Environmental Impact,SSAB
+43,13846,Food Production,Corteva,no,no,Public Health/Nutrition,Corteva
+36,17290,Medical Products and Equipment,BD,no,no,Public Health/Nutrition,BD
+25,5898,Specialty Retailers: Other,Williams-Sonoma,no,no,Economic Opportunity/Financial Exclusion,Williams-Sonoma
+20,184280,Insurance: Life. Health,Ping An Insurance,yes,no,Public Health/Nutrition,Ping An Insurance
