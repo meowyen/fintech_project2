@@ -3,19 +3,33 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import json
 
+def validate_data(values, intent_request):
+    """
+    Validates the data provided by the user.
+    """
+    # Validate the retirement age based on the user's current age.
+    # An retirement age of 65 years is considered by default.
+    if values is None:
+        return build_validation_result(
+            False,
+            "values",
+            "Please choose a value from the list",
+        )
+    return build_validation_result(True, None, None)
 
 def rec_companies(values):
     """
     Defines each risk level
     """
+    recommend= "none"
     if values == "Human Rights Support":
-        recommend = "rights_df"
+        recommend = "D, EPHYU, GTEC, LM, PRAX, NBO, EDU, PAXYF, STNL, SPY"
     elif values == "Environmentally Friendly":
-        recommend = "envir_df"
+        recommend = "D, EPHYU, GUT, GTEC, IGAP, LM, PRAX, NBO, EDU, PAXYF, STNL, FLEX"
     elif values == "Unaffiliated with Defense/Weapons":
-        recommend = "weapons_df"
+        recommend = "ACEZ, D, GUT, PRAX, NBO, EDU, PAXYF, SPY, FLEX, VWO"
     elif values == "Cruelty Free":
-        recommend = "animal_df"
+        recommend = "EDU, SPY, FLEX, VWO"
 
     return recommend
     
@@ -89,39 +103,54 @@ def recommend_stocks(intent_request):
     Performs dialog management and fulfillment for recommending a portfolio.
     """
 
-    first_name = get_slots(intent_request)["firstname"]
     values = get_slots(intent_request)["values"]
     source = intent_request["invocationSource"]
+    ticker= get_slots(intent_request)["ticker"]
+    initial_recommendation = rec_companies(values)
     if source == "DialogCodeHook":
         # Perform basic validation on the supplied input slots.
         # Use the elicitSlot dialog action to re-prompt
         # for the first violation detected.
         slots = get_slots(intent_request)
+        validation_result = validate_data(values, intent_request)
+        if not validation_result["isValid"]:
+            slots[validation_result["violatedSlot"]] = None  # Cleans invalid slot
+            # Returns an elicitSlot dialog to request new data for the invalid slot
+            return elicit_slot(
+                intent_request["sessionAttributes"],
+                intent_request["currentIntent"]["name"],
+                slots,
+                validation_result["violatedSlot"],
+                validation_result["message"],
+                )
         return elicit_slot(
             intent_request["sessionAttributes"],
             intent_request["currentIntent"]["name"],
             slots,
+            "ticker",
+            """Thank you for your information;
+            based on the value you selected, my recommendation is to choose a stock from this list: {}. 
+            Enter a ticker to see the two week projection""".format(initial_recommendation)
             )
         # Fetch current session attibutes
         output_session_attributes = intent_request["sessionAttributes"]
-        return delegate(output_session_attributes, get_slots(intent_request))
-        
+        return delegate(output_session_attributes, get_slots(intent_request))   
  # Get the initial investment recommendation
-    initial_recommendation = rec_companies(values)
+    
     ### YOUR FINAL INVESTMENT RECOMMENDATION CODE STARTS HERE ###
     
     ### YOUR FINAL INVESTMENT RECOMMENDATION CODE ENDS HERE ###
-
+    
     # Return a message with the initial recommendation based on the risk level.
     return close(
         intent_request["sessionAttributes"],
         "Fulfilled",
         {
             "contentType": "PlainText",
-            "content": """{} thank you for your information;
-            based on the value you selected, my recommendation is to choose an from this list. Enter a ticker to see the two week projection for the stock.{}
+            "content": """thank you for your information;
+            invest in {}
             """.format(
-                first_name, initial_recommendation
+                ticker
             ),
         },
     )
