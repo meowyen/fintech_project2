@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "name": "ApeStrongTogether",
+    "version": "2",
+    "intents": [
+      {
+        "name": "RecommendStocks",
+        "version": "9",
+        "fulfillmentActivity": {
+          "codeHook": {
+            "uri": "arn:aws:lambda:us-west-2:808682626532:function:recommendcompanies",
+            "messageVersion": "1.0"
+          },
+          "type": "CodeHook"
+        },
+        "sampleUtterances": [
+          "I would like to learn about ethical investment",
+          "I want to invest in companies that share my values",
+          "I'd like to learn more about ethical investing"
+        ],
+        "slots": [
+          {
+            "sampleUtterances": [],
+            "slotType": "AMAZON.AlphaNumeric",
+            "obfuscationSetting": "NONE",
+            "slotConstraint": "Required",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "Please input a ticker"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 3,
+            "name": "ticker"
+          },
+          {
+            "sampleUtterances": [],
+            "slotType": "values",
+            "slotTypeVersion": "1",
+            "obfuscationSetting": "NONE",
+            "slotConstraint": "Required",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "Which of these causes is most important to you?"
+                }
+              ],
+              "responseCard": "{\"version\":1,\"contentType\":\"application/vnd.amazonaws.card.generic\",\"genericAttachments\":[{\"imageUrl\":\"https://www.forbesindia.com/fbimages/900x600/proportional/jpeg/blog/wp-content/uploads/2019/12/Human-Right_bg-1.jpg\",\"subTitle\":\"Human Rights Support\",\"title\":\"Human Rights Support\",\"buttons\":[{\"text\":\"Human Rights Support\",\"value\":\"Human Rights Support\"}]},{\"imageUrl\":\"https://innotechtoday.com/wp-content/uploads/2019/04/sustainability-3295757_1280.jpg\",\"subTitle\":\"Environmentally Friendly\",\"title\":\"Environmentally Friendly\",\"buttons\":[{\"text\":\"Environmentally Friendly\",\"value\":\"Environmentally Friendly\"}]},{\"imageUrl\":\"https://www.invitrointl.com/wp-content/uploads/2019/09/GettyImages-9282679162222.jpg\",\"subTitle\":\"Cruelty Free\",\"title\":\"Cruelty Free\",\"buttons\":[{\"text\":\"Cruelty Free\",\"value\":\"Cruelty Free\"}]},{\"imageUrl\":\"https://www.iucr.org/__data/assets/image/0018/146340/twodoves.png\",\"subTitle\":\"Unaffiliated with Defense/Weapons\",\"title\":\"Unaffiliated with Defense/Weapons\",\"buttons\":[{\"text\":\"Unaffiliated with Defense/Weapons\",\"value\":\"Unaffiliated with Defense/Weapons\"}]}]}",
+              "maxAttempts": 2
+            },
+            "priority": 2,
+            "name": "values"
+          }
+        ],
+        "dialogCodeHook": {
+          "uri": "arn:aws:lambda:us-west-2:808682626532:function:recommendcompanies",
+          "messageVersion": "1.0"
+        }
+      }
+    ],
+    "slotTypes": [
+      {
+        "description": "values list",
+        "name": "values",
+        "version": "1",
+        "enumerationValues": [
+          {
+            "value": "Human Rights Support",
+            "synonyms": [
+              "civil rights"
+            ]
+          },
+          {
+            "value": "Environmentally Friendly",
+            "synonyms": [
+              "pro environment, carbon neutral"
+            ]
+          },
+          {
+            "value": "Unaffiliated with Defense/Weapons",
+            "synonyms": [
+              "peaceful"
+            ]
+          },
+          {
+            "value": "Cruelty Free",
+            "synonyms": [
+              "no animal testing, animal friendly"
+            ]
+          }
+        ],
+        "valueSelectionStrategy": "TOP_RESOLUTION"
+      }
+    ],
+    "voiceId": "Joey",
+    "childDirected": false,
+    "locale": "en-US",
+    "idleSessionTTLInSeconds": 300,
+    "clarificationPrompt": {
+      "messages": [
+        {
+          "contentType": "PlainText",
+          "content": "Sorry, can you please repeat that?"
+        }
+      ],
+      "maxAttempts": 5
+    },
+    "abortStatement": {
+      "messages": [
+        {
+          "contentType": "PlainText",
+          "content": "Sorry, I could not understand. Goodbye."
+        }
+      ]
+    },
+    "detectSentiment": false,
+    "enableModelImprovements": false
+  }
+}
