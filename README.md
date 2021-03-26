@@ -42,7 +42,7 @@ The list from Wikipedia was obtained from the Global Impact Investing Network Tr
 
 - [Data Prep: Global 100 and Fortune's Change the World](notebooks/company_data_cleanup.ipynb)
 - [Data Prep: SRI Funds](notebooks/sri_funds_data.ipynb)
-- [Data Prep: Combining Datasets](notesbooks/combine_company_databases.ipynb)
+- [Data Prep: Combining Datasets](notebooks/combine_company_databases.ipynb)
 
 ## Forecasting Model
 
