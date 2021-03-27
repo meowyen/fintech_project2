@@ -47,11 +47,12 @@ The list from Wikipedia was obtained from the Global Impact Investing Network Tr
 ## Forecasting Model
 
 We used the ARIMA model with log transformed stationary data. The ARIMA model is commonly used in forecasting time series. The data was split as a 90/10 train/test to make up for computational speeds when pulling larger datasets. In this case we pulled 1000 instances of data, but in production this should pull tens of thousands of instances based on the stock. 
-We used a new library which iterates through different model orders to find the best fit. This was coded to run per each stock input by the bot, so each stock has a different order if needed. 
 
-![Forecasting Sample](sample_forecast.PNG)
+We used a new library which iterates through different model orders to find the best fit. This was coded to run per each stock input by the bot, so each stock has a different order if needed. 
+![Auto ARIMA](auto_arima.PNG)
 
 The model would then output the Mean Absolute Error Percentage for accuracy results, and the whether the forecast of positive or negative.
+![Forecasting Sample](sample_forecast.PNG)
 
 ### Notebooks
 
