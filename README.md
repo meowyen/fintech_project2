@@ -66,7 +66,11 @@ To try out the API on your local machine, follow these steps:
 
 ## Ethos the Bot
 
-TBD - Bryn, can you add something for this?
+- Ethos lets the user select one of four values that they feel is most important to them
+ <img width="402" alt="image" src="https://user-images.githubusercontent.com/74158820/112709082-85141080-8e73-11eb-9496-753b2c71918b.png">
+- Ethos then provides the user a list of companies that align with that value
+- The user then can input the ticker of any of the companies and recieve the two week projection for the stock
+
 
 ## Postmortem
 
