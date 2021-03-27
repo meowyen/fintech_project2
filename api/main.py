@@ -10,5 +10,6 @@ async def root():
 
 @app.get("/forecasts/{ticker_id}")
 async def read_forecast(ticker_id):
+    # Returns forecase for the specified ticker
     result, mape = dm.get_forecast(ticker_id)
     return {"ticker_id": ticker_id, "forecast": result, "mape": mape}

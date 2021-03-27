@@ -14,6 +14,9 @@ warnings.filterwarnings("ignore")
 class DataModel:
 
     def __init__(self):
+        """
+        Initialize with Alpaca client with API keys.
+        """
         load_dotenv()
         api_key = os.getenv("ALPACA_API_KEY")
         secret_key = os.getenv("ALPACA_SECRET_KEY")
@@ -24,6 +27,9 @@ class DataModel:
         )
 
     def get_ticker_data(self, ticker):
+        """
+        Returns ticker data from Alpaca.
+        """
         timeframe = "1D"
         max_iter = 1000
         barset = self.api.get_barset(
@@ -44,6 +50,9 @@ class DataModel:
         return p_value
 
     def p_value_test(self, data, p_value):
+        """
+        Runs ARIMA and returns results.
+        """
         data_df = data
 
         if p_value >= 0.05:
@@ -68,12 +77,18 @@ class DataModel:
         return mape, fc_series
 
     def up_or_down(self, fc_series):
+        """
+        Returns whether the stock will go UP or DOWN based on ARIMA results.
+        """
         if fc_series[-1] > fc_series[0]:
             return "UP"
         else:
             return "DOWN"
 
     def get_forecast(self, ticker):
+        """
+        Returns the forecast for the specified ticker.
+        """
         data_df = self.get_ticker_data(ticker)
         p_value = self.test_stationarity(data_df)
         mape, fc_series = self.p_value_test(data_df, p_value)
