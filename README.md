@@ -54,7 +54,7 @@ TBD - Michael, can you add?
 
 ## Forecasting API
 
-The forecasting model API is deployed to Azure as a web application. This API is accessed by the bot when it needs to return a forecase for a stock ticker.
+The forecasting model API is deployed to Azure as a web application. This API is accessed by the bot when it needs to return a forecast for a stock ticker.
 
 To try out the API on your local machine, follow these steps:
 
